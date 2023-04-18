@@ -27,10 +27,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@liquiditeam/app-sdk@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@liquiditeam/app-sdk/-/app-sdk-0.0.10.tgz#67cce1df742b8265282829453fffc88d9a359d34"
-  integrity sha512-ZyGqJo3cCJ4PKLFnl5ikRE0QpnzoMKf73esJinFeeSo0IJh6sHlpqeWrIyVpb5LUhu9KBAX/iNjjfT4JfFEFFA==
+"@liquiditeam/app-sdk@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@liquiditeam/app-sdk/-/app-sdk-0.0.12.tgz#74aba00344d0af7dde8280482b634c2dd70a8907"
+  integrity sha512-mDQK6ezFxGluovyyuvrp5LOFmFUgTEBtE5XTAAbYokIOQIxrgN+H0SBzEU1lILu44zACniCntcyM2RPtBJDRQw==
   dependencies:
     express "^4.17.1"
     graphql "^15.5.3"
@@ -41,12 +41,12 @@
     ws "^8.2.2"
     zen-observable "^0.8.15"
 
-"@liquiditeam/sdk@feature-giveaway-api-triggered-event":
-  version "0.0.0-ed1d0d51"
-  resolved "https://registry.yarnpkg.com/@liquiditeam/sdk/-/sdk-0.0.0-ed1d0d51.tgz#9b273cabe7d8d3b80750b7110c8cab2281f4dc2f"
-  integrity sha512-uWrWT8IZNI3X08P0KX8N2Rb4KV+nEAVNhMkwcVo1yr3+qyEcvl4UR87feMaUAOTw5nnVF8JW8Byte9ZQRo2YDA==
+"@liquiditeam/sdk@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@liquiditeam/sdk/-/sdk-2.1.0.tgz#be8b7b3ddfa449ab9868d1eeab7d17f045f1c355"
+  integrity sha512-OCtiGUP0gsbbeSici1iCZYsvbvBzThNnCy5RgVnrWnF5wdcGBXkKPaAsZfCvv13D8Rh35B2ieRGeV6tvh83aug==
   dependencies:
-    "@liquiditeam/app-sdk" "0.0.10"
+    "@liquiditeam/app-sdk" "^0.0.12"
     extract-files "^11.0.0"
     form-data "^4.0.0"
     graphql "^15.5.0"

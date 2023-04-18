@@ -8,7 +8,7 @@
     "start": "ts-node --files src/index.ts"
   },
   "dependencies": {
-    "@liquiditeam/sdk": "feature-giveaway-api-triggered-event",
+    "@liquiditeam/sdk": "^2.1.0",
     "jwt-decode": "^3.1.2",
     "node-fetch": "^2.6.9"
   },
