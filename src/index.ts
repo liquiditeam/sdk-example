@@ -1,5 +1,6 @@
 import initSdk from '@liquiditeam/sdk';
 import jwtDecode from 'jwt-decode';
+import fetch from 'node-fetch';
 
 const clientId = '...';
 const clientSecret = '...';
