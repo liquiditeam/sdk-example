@@ -23,7 +23,11 @@ const main = async () => {
   const sdk = initSdk({ token });
 
   // trigger giveaway event for all users
-  const result = await sdk.api.triggerGiveawayEvent({ apiUuid: '00000000-...' });
+  const result = await sdk.api.triggerGiveawayEvent({
+    apiUuid: '00000000-...', // required
+    userFilter: [{ id: { in: ['1', '2'] } }], // optional user filter
+    // check the type definition for more filter options
+  });
 
   console.log(result);
 };
