@@ -1,5 +1,4 @@
 import initSdk from '@liquiditeam/sdk';
-import jwtDecode from 'jwt-decode';
 import fetch from 'node-fetch';
 
 const clientId = '...';
@@ -17,16 +16,13 @@ const main = async () => {
   });
   if (!response.ok) throw await response.json();
   const body = await response.json();
-  const decoded = jwtDecode<any>(body.access_token);
-  const token = { jwt: body.access_token, decoded };
 
-  const sdk = initSdk({ token });
+  const sdk = initSdk(body.access_token);
 
-  // trigger giveaway event for all users
-  const result = await sdk.api.triggerGiveawayEvent({
-    apiUuid: '00000000-...', // required
-    userFilter: [{ id: { in: ['1', '2'] } }], // optional user filter
-    // check the type definition for more filter options
+  const result = await sdk.api.transferNft({
+    id: '1',
+    address: '0x1234567...',
+    amount: 1,
   });
 
   console.log(result);
