@@ -27,15 +27,16 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@liquiditeam/sdk@^2.1.8":
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/@liquiditeam/sdk/-/sdk-2.1.8.tgz#5a5f86c5689d0d520ea83ea64f4f8edc5035592f"
-  integrity sha512-fNNxAad2jA4UqYGTPvELgymCLybga+zfCcLGgwUNI2x5zAVoxkSjK5V1l0ZusNOUXYkh4ftU/a/c23LqSAEuOg==
+"@liquiditeam/sdk@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@liquiditeam/sdk/-/sdk-2.1.9.tgz#412891e77eee5b95bb8afd9405babfaac8f99555"
+  integrity sha512-H5hkoKaVjxD74iOKHA2bxrvimXzIrYuccxFRkZcncKSgdxPap/dYNd1ZKiaRmvPw4O/NtJcGXI1MPbetNjCSiw==
   dependencies:
     extract-files "^11.0.0"
     form-data "^4.0.0"
     graphql "^16.7.1"
     graphql-tag "^2.12.6"
+    jwt-decode "^4.0.0"
     node-fetch "^2.6.12"
     ramda "^0.29.0"
 
@@ -433,6 +434,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
+
+jwt-decode@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-4.0.0.tgz#2270352425fd413785b2faf11f6e755c5151bd4b"
+  integrity sha512-+KJGIyHgkGuIq3IEBNftfhW/LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA==
 
 lilconfig@2.1.0:
   version "2.1.0"
